@@ -2,6 +2,10 @@ body {
   font-family: "Aboreto", cursive;
   font-family: "Roboto Mono", monospace;
   color: black;
+  padding: 0; /*krece od ivice*/
+  margin: 0;
+  text-align: center; 
+  
 }
 .container {
   display: flex;
@@ -17,6 +21,7 @@ body {
     width: 84px;
     height: 84px;
     margin-right: auto;
+    margin: 15px;
 }
 .links{
     display: flex;
