@@ -1,0 +1,76 @@
+body {
+  font-family: "Aboreto", cursive;
+  font-family: "Roboto Mono", monospace;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar{
+    display: flex;
+    background-color: grey;
+    color: white;
+    align-items: center;
+ }
+.logo{
+    width: 84px;
+    height: 84px;
+    margin-right: auto;
+}
+.links{
+    display: flex;
+    margin-left: auto;
+
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+   }
+.hero{
+    display: flex;
+    background-color: grey;
+    color: white;
+    justify-content: center;
+    align-items: center
+}
+.hero-1{
+    display: flex;
+    flex-basis: 450px; /*Koliko ce da se rasisi*/
+    flex-direction: column;
+
+}
+h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.hero button{
+    display: block;
+    border: none;
+    width: 110px;
+    height: 35px;
+    color: white;
+    background-color: #3882F6;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.content {
+    align-items: center;
+}
+.content-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.content-1 img{
+    display: flex;
+    width: 208px;
+    height: 208px;
+    margin: 10px;
+}
+
+
